@@ -36,43 +36,43 @@ const About = () => {
               CODE IS CRAFT
             </p>
             <Card
-              style={{ rotate: "45deg", top: "30%", left: "20%" }}
-              text="HTML"
+              style={{ rotate: "5deg", top: "60%", left: "20%" }}
+              image="assets/logos/java.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="JavaScript"
+              style={{ rotate: "-30deg", top: "60%", left: "85%" }}
+              image="assets/logos/html5.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "10deg", bottom: "30%", left: "50%" }}
-              text="Java"
+              style={{ rotate: "10deg", bottom: "70%", left: "70%" }}
+              image="assets/logos/node.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "45deg", top: "55%", left: "0%" }}
-              text="React.js"
+              image="assets/logos/mongo.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="CSS"
+              image="assets/logos/javascript.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "10deg", top: "70%", left: "60%" }}
-              image="assets/logos/java.webp"
+              image="assets/logos/cplusplus.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "35deg", top: "70%", left: "25%" }}
-              image="assets/logos/3dc-icon.webp"
+              style={{ rotate: "35deg", top: "70%", left: "35%" }}
+              image="assets/logos/tailwindcss.svg"
               containerRef={grid2Container}
             />
             <Card
               style={{ rotate: "-45deg", top: "20%", left: "10%" }}
-              image="assets/logos/c-icon.png"
+              image="assets/logos/css3.svg"
               containerRef={grid2Container}
             />
           </div>
