@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="200" viewBox="0 0 200 250">
+  <g>
+    <path fill="red" d="M100,30 C90,10 110,10 100,30 C95,20 105,20 100,30 Z" />
+    <path fill="red" d="M100,45 C85,20 115,20 100,45 C90,30 110,30 100,45 Z" />
+    <path fill="red" d="M100,60 C90,40 110,40 100,60 C95,50 105,50 100,60 Z" />
+    
+    <path fill="none" stroke="blue" stroke-width="4" d="M60 80 Q100 100 140 80" />
+    <path fill="none" stroke="blue" stroke-width="4" d="M65 95 Q100 110 135 95" />
+    <path fill="none" stroke="blue" stroke-width="4" d="M70 110 Q100 120 130 110" />
+    <path fill="none" stroke="blue" stroke-width="4" d="M75 125 Q100 130 125 125" />
+
+    <text x="50" y="190" font-family="Arial, sans-serif" font-size="40" fill="red">Java</text>
+  </g>
+</svg>

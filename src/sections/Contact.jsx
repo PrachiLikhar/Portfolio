@@ -51,7 +51,10 @@ const Contact = () => {
     }
   };
   return (
-    <section className="relative flex items-center c-space section-spacing">
+    <section
+      className="relative flex items-center c-space section-spacing"
+      id="contact"
+    >
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -64,8 +67,9 @@ const Contact = () => {
         <div className="flex flex-col items-start w-full gap-5 mb-10">
           <h2 className="text-heading">Let's Talk</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Whether you're looking for a passionate developer for your next
+            project, want to collaborate, or just want to say hello — feel free
+            to drop a message. I'm always open to new opportunities!
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
@@ -78,7 +82,7 @@ const Contact = () => {
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Enter your full Name"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +98,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="Enter your email address"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}

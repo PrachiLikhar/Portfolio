@@ -3,105 +3,105 @@ export const myProjects = [
     id: 1,
     title: "E-commerce Platform",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
-    subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
-    ],
-    href: "",
+      "A simple food delivery website built using MERN stack where users can browse food items, add to cart, and place orders.",
+      subDescription: [
+        "Developed a responsive and scalable food delivery web application using MERN stack (MongoDB, Express.js, React, Node.js).",
+        "Implemented secure user authentication and authorization using JWT and Context API.",
+        "Integrated real-time order tracking, dynamic cart management, and order history features.",
+        "Designed a mobile-friendly UI using Tailwind CSS to enhance user experience.",
+        "Enabled multi-role support for users and admins, with separate dashboards for order management.",
+      ],
+    href: "https://github.com/PrachiLikhar/Food-del.git",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/project_1.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Node.js",
+        path: "/assets/logos/node.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Express.js",
+        path: "/assets/logos/express.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "Mongo db",
+        path: "/assets/logos/mongo.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Brainwave – AI Chat & Productivity App",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Brainwave is an advanced AI-powered chat and productivity web application built with React.js and Tailwind CSS.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Developed a modern AI chat interface using React.js and Tailwind CSS for seamless user interactions.",
+  "Integrated NLP capabilities for natural language understanding and smart response generation.",
+  "Implemented AI-powered features such as photo editing and video generation using external APIs.",
+  "Built with Vite for optimized performance and fast development workflow.",
+  "Ensured responsive design and cross-platform compatibility across devices.",
+  "Added third-party integrations (e.g., Discord, Slack, Figma) to support collaboration tools.",
+ 
     ],
-    href: "",
+    href: "https://github.com/PrachiLikhar/Brainwave.git",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/project_2.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
+        id: 2,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
+      {
+        id: 3,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
+      },
+     ],
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Sorting Visualizer",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
+      "Sorting Visualizer is an interactive web application built with HTML, CSS, and JavaScript to demonstrate how various sorting algorithms work through colorful, real-time visual animations.",
+      subDescription: [
+        "Developed a real-time sorting algorithm visualizer using HTML, CSS, and vanilla JavaScript.",
+        "Implemented multiple sorting algorithms including Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, and Quick Sort.",
+        "Created dynamic visual animations that reflect each algorithm’s internal operations step-by-step.",
+        "Built interactive controls for adjusting sorting speed, array size, and generating new random arrays.",
+        "Focused on responsive design to ensure smooth performance across various screen sizes."
+         ],
+    href: "https://github.com/PrachiLikhar/Sorting-.git",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/project_3.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 4,
@@ -112,113 +112,72 @@ export const myProjects = [
   },
   {
     id: 4,
-    title: "C++ Game Engine",
+    title: "Gemini AI",
     description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
+      "A full-stack clone of  Gemini AI built using modern web technologies",
+      subDescription: [
+        "Developed a responsive Google Gemini clone with a real-time AI chat interface using React.js and Tailwind CSS.",
+        "Implemented prompt-response logic simulating AI conversation flow with dynamic UI updates.",
+        "Focused on UI/UX design, responsiveness, and clean code structure suitable for AI-based interfaces.",
+        "Built for educational purposes and front-end AI integration demonstration.",
+      ],
+    href: "https://github.com/PrachiLikhar/Gemini_clone.git",
     logo: "",
-    image: "/assets/projects/game-engine.jpg",
+    image: "/assets/projects/project_4.png",
     tags: [
       {
         id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
+        name: "Tailwind css",
+        path: "/assets/logos/tailwindcss.svg",
       },
       {
         id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "YouTube Clone",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "A responsive YouTube homepage clone built using HTML, CSS, and JavaScript. This project recreates the look and feel of the YouTube interface including header, sidebar, video cards, and search bar.",
     subDescription: [
       "Built using Blazor WebAssembly for a seamless SPA experience.",
       "Implemented video streaming with Azure Media Services.",
       "Added a quiz system with dynamic question generation and real-time grading.",
       "Integrated Stripe API for secure payment processing.",
     ],
-    href: "",
+    href: "https://github.com/PrachiLikhar/VidTube.git",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/project_6.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "CSS",
+        path: "/assets/logos/css3.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "Javascript",
+        path: "/assets/logos/javascript.svg",
       },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
+     
     ],
   },
 ];
@@ -231,50 +190,61 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/prachi-likhar",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
+    href: "",
     icon: "/assets/socials/instagram.svg",
   },
 ];
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Bachelor of Technology",
+    job: "Swami Vivekanand College of Engineering,Indore",
+    date: "2021-2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
-    ],
+      "🍽️ Built a full-stack food delivery app using MERN stack as final year project.",
+      "💻 Completed summer internship in web development using React and Node.js.",
+      "📘 Gained strong knowledge in Data Structures and Algorithms using Java.",
+      "🚀 Participated in Smart India Hackathon 2023 – developed a water-level monitoring system.",
+      "🎯 Organized and hosted coding competitions as a core member of the college tech club.",
+      "🧑‍💻 Studied core Computer Science subjects including Operating Systems, DBMS, Computer Networks, and OOPs.",
+    ]
+    
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Higher Secondary Education (Class XII)",
+    job: "Nalanda Vidya Niketan Higher Secondary School",
+    date: "2020–2021",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
+      "📘 Completed 12th grade with PCM (Physics, Chemistry, Mathematics) as core subjects.",
+      "📊 Achieved 81% overall score in the MP State Board Examination (2020–2021).",
+      "🧠 Built strong foundation in problem-solving, logical reasoning, and analytical thinking.",
+      "🔬 Conducted basic physics experiments as part of practical coursework, improving scientific observation skills.",
+      "💡 Developed conceptual clarity in mathematics through extensive numerical practice and model exams.",
+      "🗂️ Actively participated in school-level science quizzes and academic competitions.",
+      "🎯 Learned discipline, time management, and self-study habits while preparing for board exams.",
+    ]
+    
   },
+  
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
+    title: "High School (Class X)",
+    job: "Nalanda Vidya Niketan Higher Secondary School",
+    date: "2018–2019",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "📘 Successfully completed Class 10th under the MP State Board curriculum.",
+      "📊 Secured [your percentage]% in the final board examination.",
+      "🧠 Built strong fundamentals in Mathematics, Science, and English.",
+      "💡 Developed interest in technology and logical reasoning through school curriculum.",
+      "🏅 Participated in school-level academic and co-curricular competitions.",
+      "📚 Learned exam strategy, time management, and regular study discipline.",
     ],
-  },
+  }
+  
 ];
 export const reviews = [
   {

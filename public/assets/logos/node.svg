@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="220" viewBox="0 0 256 272">
+  <polygon fill="#68A063" points="128,0 256,64 256,192 128,256 0,192 0,64" />
+  <text x="50" y="110" font-family="Arial, sans-serif" font-weight="bold" font-size="38" fill="#333">node</text>
+  
+  <g transform="translate(80, 140)">
+    <polygon fill="none" stroke="#FFF" stroke-width="4" points="48,0 96,28 96,84 48,112 0,84 0,28" />
+    <text x="20" y="65" font-family="Arial, sans-serif" font-size="36" fill="#FFF">JS</text>
+  </g>
+</svg>
